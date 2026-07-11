@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Color Change</title>
+
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="btn">Click Me</button>
+
+    <script>
+        let button = document.getElementById("btn");
+
+        button.onclick = function () {
+            button.style.backgroundColor = "red";
+        };
+    </script>
+
+</body>
+</html>
